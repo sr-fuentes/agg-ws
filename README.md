@@ -5,7 +5,7 @@ Async and Sync Websocket client for connecting to multiple cryptocurrency exchan
 
 ```bash
 # Install Rust
-url --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Clone repo
 git clone https://github.com/sr-fuentes/agg-ws.git
@@ -73,7 +73,7 @@ if let Some(Ok(ClientRespMsg { resp, .. })) = resp {
 }    
 ```
 
-More examples can be found in the examples directory.
+Full examples can be found in the examples directory.
 
 ## Sample Application
 
